@@ -191,6 +191,8 @@ class WorldcatSpider(scrapy.Spider):
                     key = 'notes'
                 case 'Performer(s):':
                     key = 'performers'
+                case 'Credits:':
+                    key = 'credits'
                 case 'Description:':
                     key = 'description'
                 case 'Contents:':
